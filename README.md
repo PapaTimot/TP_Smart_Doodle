@@ -6,6 +6,7 @@
 Le but de ce TP étant de reproduire une application type doodle en utilisant hibernate, 
 JPA côté serveur pour exposer une API REST permettant de manipuler les ressources,
 et avec Vue.js côté client pour consommer l'API REST à travers une interface utilisateur.
+ * Ce projet permet donc de manipuler des ressources stockéesen BDD (User, Poll et Preferences) à travers une API REST.
 
 ## Architecture
  Les sources se divisent en quatres dossiers.
@@ -23,7 +24,6 @@ et avec Vue.js côté client pour consommer l'API REST à travers une interface 
  * Le projet se lance ensuite en exécutant simplement la classe main dans `Application`, ou bien avec spring-boot (`spring-boot:run`). 
  Nous avons choisie d'utiliser le framework Spring car il facilite beaucoup le développement 
  en générant automatiquement du code qui aurait été long à écrire (comme toutes les méthodes des classes `repository` par exemple).
- 
  
  
  ## Retrospective 
