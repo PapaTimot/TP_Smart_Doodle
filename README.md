@@ -19,9 +19,11 @@ et avec Vue.js côté client pour consommer l'API REST à travers une interface 
   * Et finalement le dossier `controller` définie les points d'entrées de l'API REST en mappant les requêtes CRUD à des méthodes java.
     
  ## Utilisation 
- Le projet se lance en exécutant simplement la classe main dans `Application`. 
+ * Par défaut, le projet est paramétrer pour se connecter à une base de données local HSQL qu'il faut donc avoir lancé au préalable. Si vous lancez ce projet en étant connecté au réseau de l'ISTIC, vous pouvez modifier le fichier application.properties en commentant la partie `Config for local database` et en décommentant la partie `Config for database in ISTIC Server`. Ainsi vous pourrez exécuter le programme sans avoir à vous occuper d'abord de la BDD.
+ * Le projet se lance ensuite en exécutant simplement la classe main dans `Application`, ou bien avec spring-boot (`spring-boot:run`). 
  Nous avons choisie d'utiliser le framework Spring car il facilite beaucoup le développement 
- en générant automatiquement du code qui aurait été long à écrire (comme toutes les méthodes des classes `repository` par exemple.
+ en générant automatiquement du code qui aurait été long à écrire (comme toutes les méthodes des classes `repository` par exemple).
+ 
  
  
  ## Retrospective 
