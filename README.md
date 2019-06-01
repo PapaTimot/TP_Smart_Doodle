@@ -33,8 +33,8 @@ et avec Vue.js côté client pour consommer l'API REST à travers une interface 
  (il manque les méthodes REST pour manipuler les entités Préférences, User et User DatesChoice).
  Et la partie frontend n'est pas non plus très aboutie par manque de temps également. 
  
- * Néanmoins, ce TP nous aura bien profité car il nous aura fait expérimenté le développement fullstack d'une application web en java, 
- en passant par toutes les couches de la base de donnée au placement des boutons sur l'interface utilisateur.
+ * Néanmoins, ce TP nous aura bien profité car il nous aura fait expérimenter le développement fullstack d'une application web en java, 
+ en passant par toutes les couches, de la base de donnée au placement des boutons sur l'interface utilisateur.
 
 
 ## Auteurs
