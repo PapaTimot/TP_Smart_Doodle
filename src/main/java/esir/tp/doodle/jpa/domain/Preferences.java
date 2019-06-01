@@ -15,7 +15,6 @@ public class Preferences {
     private List<String> preferences;
     @ElementCollection
     private List<String> allergies;
-    private String attributTest;
 
     public Preferences(){
     }

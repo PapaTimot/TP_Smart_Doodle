@@ -54,6 +54,11 @@ public class PollController {
                 .map(poll -> {
                     poll.setTitle(newPoll.getTitle());
                     poll.setMeal(newPoll.isMeal());
+                    poll.setDates(newPoll.getDates());
+                    poll.setOwner(newPoll.getOwner());
+                    poll.setParticipants(newPoll.getParticipants());
+                    poll.setSummary(newPoll.getSummary());
+                    poll.setUserChoices(newPoll.getUserChoices());
                     return repository.save(poll);
                 })
                 .orElseGet(() -> {

@@ -18,7 +18,7 @@ public class LoadDatabase {
             for (int i = 0; i < 10; i++) {
                 Preferences p = new Preferences();
                 User u = new User(
-                        "user" + i + ".auto-genrated@gmail.com",
+                        "user" + i + ".auto-generated@gmail.com",
                         "user" + i,
                         "auto-generated",
                         p);
