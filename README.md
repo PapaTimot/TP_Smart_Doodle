@@ -19,20 +19,16 @@ et avec Vue.js côté client pour consommer l'API REST à travers une interface 
   * Et finalement le dossier `controller` définie les points d'entrées de l'API REST en mappant les requêtes CRUD à des méthodes java.
     
  ## Utilisation 
- Le projet se lance en exécutant simplement la classe main dans `Application`. 
+ * Par défaut, le projet est paramétré pour se connecter à une base de données local HSQL qu'il faut donc avoir lancé au préalable. Si vous lancez ce projet en étant connecté au réseau de l'ISTIC, vous pouvez modifier le fichier application.properties en commentant la partie `Config for local database` et en décommentant la partie `Config for database in ISTIC Server`. Ainsi vous pourrez exécuter le programme sans avoir à vous occuper d'abord de la BDD.
+ * Le projet se lance ensuite en exécutant simplement la classe main dans `Application`, ou bien avec spring-boot (`spring-boot:run`). 
  Nous avons choisie d'utiliser le framework Spring car il facilite beaucoup le développement 
- en générant automatiquement du code qui aurait été long à écrire (comme toutes les méthodes des classes `repository` par exemple.
+ en générant automatiquement du code qui aurait été long à écrire (comme toutes les méthodes des classes `repository` par exemple).
+ 
  
  
  ## Retrospective 
- * Nous avons mis assez longtemps à réussir à connecter la base de donnée au serveur de l'ISTIC,
- comprendre le fonctionnement de JPA et prendre en main Spring boot et Spring data. 
- Par conséquent la partie controller n'est pas tout à fait finie
- (il manque les méthodes REST pour manipuler les entités Préférences, User et User DatesChoice).
- Et la partie frontend n'est pas non plus très aboutie par manque de temps également. 
- 
- * Néanmoins, ce TP nous aura bien profité car il nous aura fait expérimenté le développement fullstack d'une application web en java, 
- en passant par toutes les couches de la base de donnée au placement des boutons sur l'interface utilisateur.
+ Ce TP nous aura bien profité car il nous aura fait expérimenter le développement fullstack d'une application web en java, 
+ en passant par toutes les couches, de la base de donnée au placement des boutons sur l'interface utilisateur.
 
 
 ## Auteurs
